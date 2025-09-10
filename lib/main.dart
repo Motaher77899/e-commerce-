@@ -1,3 +1,4 @@
+import 'package:ecommerce/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'screens/fasion_categoris.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrangeAccent),
 
       ),
-      home: FashionCategoriesScreen(),
+      home: HomeScreen(),
     );
   }
 }
