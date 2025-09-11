@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'cart_page.dart';
 import 'product_details_page.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -15,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<Widget> _pages = [
     const HomePageContent(),
     const Center(child: Text("Categories Page")),
-    const Center(child: Text("Cart Page")),
+    CartPage(),
     const Center(child: Text("Account Page")),
   ];
 
