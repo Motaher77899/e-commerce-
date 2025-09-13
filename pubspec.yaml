@@ -60,6 +60,7 @@ flutter:
     - assets/juce_water/
     - assets/laptop/
     - assets/vegetables/
+    - assets/Bg/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
